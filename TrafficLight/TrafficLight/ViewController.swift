@@ -7,11 +7,26 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class MainViewController: UIViewController {
+
+    @IBOutlet weak var redLightView: UIView?
+    @IBOutlet weak var yellowLightView: UIView?
+    @IBOutlet weak var greenLightView: UIView?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        redLightView?.layer.cornerRadius = 75
+        redLightView?.layer.borderColor = UIColor.systemRed.cgColor
+        redLightView?.layer.borderWidth = 1
+
+        yellowLightView?.layer.cornerRadius = 75
+        yellowLightView?.layer.borderColor = UIColor.systemYellow.cgColor
+        yellowLightView?.layer.borderWidth = 1
+
+        greenLightView?.layer.cornerRadius = 75
+        greenLightView?.layer.borderColor = UIColor.systemGreen.cgColor
+        greenLightView?.layer.borderWidth = 1
     }
 
 
