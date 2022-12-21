@@ -18,6 +18,7 @@
 		490A5DE229534F32002256A8 /* TrafficLightDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490A5DE129534F32002256A8 /* TrafficLightDirection.swift */; };
 		490A5DE429536289002256A8 /* YellowLightState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490A5DE329536289002256A8 /* YellowLightState.swift */; };
 		490A5DE629536304002256A8 /* GreenLightState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490A5DE529536304002256A8 /* GreenLightState.swift */; };
+		490B98422953800E00F3A202 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490B98412953800E00F3A202 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		490A5DE129534F32002256A8 /* TrafficLightDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightDirection.swift; sourceTree = "<group>"; };
 		490A5DE329536289002256A8 /* YellowLightState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowLightState.swift; sourceTree = "<group>"; };
 		490A5DE529536304002256A8 /* GreenLightState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenLightState.swift; sourceTree = "<group>"; };
+		490B98412953800E00F3A202 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				490A5DD129534A61002256A8 /* LaunchScreen.storyboard */,
 				490A5DD429534A61002256A8 /* Info.plist */,
 				490A5DE129534F32002256A8 /* TrafficLightDirection.swift */,
+				490B98412953800E00F3A202 /* UIColor+Extension.swift */,
 			);
 			path = TrafficLight;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				490A5DE429536289002256A8 /* YellowLightState.swift in Sources */,
 				490A5DCB29534A60002256A8 /* ViewController.swift in Sources */,
 				490A5DE629536304002256A8 /* GreenLightState.swift in Sources */,
+				490B98422953800E00F3A202 /* UIColor+Extension.swift in Sources */,
 				490A5DE029534E47002256A8 /* RedLightState.swift in Sources */,
 				490A5DE229534F32002256A8 /* TrafficLightDirection.swift in Sources */,
 				490A5DC729534A60002256A8 /* AppDelegate.swift in Sources */,
