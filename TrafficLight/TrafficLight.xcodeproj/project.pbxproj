@@ -13,6 +13,12 @@
 		490A5DCE29534A60002256A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490A5DCC29534A60002256A8 /* Main.storyboard */; };
 		490A5DD029534A61002256A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490A5DCF29534A61002256A8 /* Assets.xcassets */; };
 		490A5DD329534A61002256A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490A5DD129534A61002256A8 /* LaunchScreen.storyboard */; };
+		490A5DDC29534D8B002256A8 /* TrafficLightState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490A5DDB29534D8B002256A8 /* TrafficLightState.swift */; };
+		490A5DE029534E47002256A8 /* RedLightState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490A5DDF29534E47002256A8 /* RedLightState.swift */; };
+		490A5DE229534F32002256A8 /* TrafficLightDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490A5DE129534F32002256A8 /* TrafficLightDirection.swift */; };
+		490A5DE429536289002256A8 /* YellowLightState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490A5DE329536289002256A8 /* YellowLightState.swift */; };
+		490A5DE629536304002256A8 /* GreenLightState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490A5DE529536304002256A8 /* GreenLightState.swift */; };
+		490B98422953800E00F3A202 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490B98412953800E00F3A202 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		490A5DCF29534A61002256A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		490A5DD229534A61002256A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		490A5DD429534A61002256A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490A5DDB29534D8B002256A8 /* TrafficLightState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightState.swift; sourceTree = "<group>"; };
+		490A5DDF29534E47002256A8 /* RedLightState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedLightState.swift; sourceTree = "<group>"; };
+		490A5DE129534F32002256A8 /* TrafficLightDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightDirection.swift; sourceTree = "<group>"; };
+		490A5DE329536289002256A8 /* YellowLightState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowLightState.swift; sourceTree = "<group>"; };
+		490A5DE529536304002256A8 /* GreenLightState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenLightState.swift; sourceTree = "<group>"; };
+		490B98412953800E00F3A202 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 		490A5DC529534A60002256A8 /* TrafficLight */ = {
 			isa = PBXGroup;
 			children = (
+				490A5DDA29534D59002256A8 /* State */,
 				490A5DC629534A60002256A8 /* AppDelegate.swift */,
 				490A5DC829534A60002256A8 /* SceneDelegate.swift */,
 				490A5DCA29534A60002256A8 /* ViewController.swift */,
@@ -63,8 +76,21 @@
 				490A5DCF29534A61002256A8 /* Assets.xcassets */,
 				490A5DD129534A61002256A8 /* LaunchScreen.storyboard */,
 				490A5DD429534A61002256A8 /* Info.plist */,
+				490A5DE129534F32002256A8 /* TrafficLightDirection.swift */,
+				490B98412953800E00F3A202 /* UIColor+Extension.swift */,
 			);
 			path = TrafficLight;
+			sourceTree = "<group>";
+		};
+		490A5DDA29534D59002256A8 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				490A5DDB29534D8B002256A8 /* TrafficLightState.swift */,
+				490A5DE329536289002256A8 /* YellowLightState.swift */,
+				490A5DDF29534E47002256A8 /* RedLightState.swift */,
+				490A5DE529536304002256A8 /* GreenLightState.swift */,
+			);
+			path = State;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +164,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				490A5DE429536289002256A8 /* YellowLightState.swift in Sources */,
 				490A5DCB29534A60002256A8 /* ViewController.swift in Sources */,
+				490A5DE629536304002256A8 /* GreenLightState.swift in Sources */,
+				490B98422953800E00F3A202 /* UIColor+Extension.swift in Sources */,
+				490A5DE029534E47002256A8 /* RedLightState.swift in Sources */,
+				490A5DE229534F32002256A8 /* TrafficLightDirection.swift in Sources */,
 				490A5DC729534A60002256A8 /* AppDelegate.swift in Sources */,
+				490A5DDC29534D8B002256A8 /* TrafficLightState.swift in Sources */,
 				490A5DC929534A60002256A8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
